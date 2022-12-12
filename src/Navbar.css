@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+    width: 25rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .search-form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-login {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
